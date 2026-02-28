@@ -20,7 +20,7 @@ npm i -g sqlew
 ### Clone this repository
 
 ```sh
-git clone https://github.com/sqlew-io/sqlew-codex-skills
+git clone https://github.com/sqlew-io/sqlew-codex
 ```
 
 ### Install Skills and System Prompt
