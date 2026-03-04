@@ -1,11 +1,11 @@
 # sqlew-codex
 
-Codex Skills and append system prompt for [sqlew](https://github.com/sqlew-io/sqlew) –Context sharing MCP server with Plan-to-ADR integration.
+Codex skills and system prompt additions for [sqlew](https://github.com/sqlew-io/sqlew), a context-sharing MCP server with Plan-to-ADR integration.
 
 ## Features
 
-* **Skills**: Auto-triggered guidance for Plan Mode decision/constraint formatting
-* **System Prompt**: Revoke sqlew command before/after planning
+* **Skills**: Auto-triggered guidance for plan decision/constraint formatting and PR ADR enrichment
+* **System Prompt**: Invoke sqlew workflow rules before and after planning
 
 ## Installation
 
@@ -20,7 +20,7 @@ npm i -g sqlew
 ### Clone this repository
 
 ```sh
-git clone https://github.com/sqlew-io/sqlew-codex
+git clone https://github.com/sqlew-io/sqlew-codex-skills
 ```
 
 ### Install Skills and System Prompt
@@ -50,6 +50,7 @@ Simply remove skills and config lines.
 
 ```sh
 rm -rf ~/.codex/skills/sqlew-decision-format
+rm -rf ~/.codex/skills/sqlew-pr-adr
 rm ~/.codex/sqlew_agents.md
 ```
 
